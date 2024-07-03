@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coffee</title>
+
+        <!-- SWIPER -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+        <!-- Font Awesome CDN Link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <!-- Custom CSS File Link  -->
+        <link rel="stylesheet" href="css/coffee3.css">
+
+    </head>
+
+    <body>
+
+        <!-- HEADER -->
+        <header class="header">
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+            <a href="#" class="logo">Frescofi <i class="fas fa-mug-hot"></i></a>
+
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#menu">menu</a>
+                <a href="#review">review</a>
+                <a href="#book">book</a>
+            </nav>
+
+            <a href="#book" class="btn">book a table</a>
+        </header>
+
+        <!-- HOME -->
+        <section class="home" id="home">
+            <div class="row">
+                <div class="content">
+                    <h3>Drink Coffee and Start working for who you want to be</h3>
+                    <a href="#menu" class="btn">buy one now</a>
+                </div>
+
+                <div class="image">
+                    <img src="image/home-img-1.png" class="main-home-image" alt="">
+                </div>
+            </div>
+
+            <div class="image-slider">
+                <img src="image/home-img-1.png" alt="">
+                <img src="image/home-img-2.png" alt="">
+                <img src="image/home-img-3.png" alt="">
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about" id="about">
+            <h1 class="heading">about us <span>why choose us</span></h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="image/about-img.png" alt="">
+                </div>
+
+                <div class="content">
+                    <h3 class="title">what's make our coffee special!</h3>
+                    <p>Our coffee is made with the hands of passion where the smell of coffee will make you feel pure love we put for our customers and it will help refresh your mind and make your day go well  </p>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons-container">
+                        <div class="icons">
+                            <img src="image/about-icon-1.png" alt="">
+                            <h3>quality coffee</h3>
+                        </div>
+                        <div class="icons">
+                            <img src="image/about-icon-2.png" alt="">
+                            <h3>our branches</h3>
+                        </div>
+                        <div class="icons">
+                            <img src="image/about-icon-3.png" alt="">
+                            <h3>free delivery</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MENU -->
+        <section class="menu" id="menu">
+            <h1 class="heading">our menu <span>popular menu</span></h1>
+
+            <div class="box-container">
+                <a href="#" class="box">
+                    <img src="image/menu-1.png" alt="">
+                    <div class="content">
+                        <div> 
+                            <h3>Cold Coffee</h3>
+                            <p>Feeling like your mind is on fire then have some cold coffee and make yourself calm </p>
+                            <span>$8.99</span>
+                        </div>
+                        
+                    </div>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="image/menu-2.png" alt="">
+                    <div class="content">
+                        <div> 
+                            <h3>Cappuccino</h3>
+                            <p>Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top. Sometimes you can find variations that use cream instead of milk or ones that throw in flavor shot</p>
+                            <span>$8.99</span>
+                        </div>
+                        
+                    </div>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="image/menu-3.png" alt="">
+                    <div class="content">
+                        <div>
+                            <h3>Americano coffee</h3>
+                            <p>With a similar flavor to black coffee, the americano consists of an espresso shot diluted in hot water. </p>
+                            <span>$8.99</span>
+                        </div>
+                       
+                    </div>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="image/menu-4.png" alt="">
+                    <div class="content">
+                        <h3>Mocha</h3>
+                        <p>For all you chocolate lovers out there, you’ll fall in love with a mocha (or maybe you already have). The mocha is a chocolate espresso drink with steamed milk and foam.</p>
+                        <span>$8.99</span>
+                    </div>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="image/menu-5.png" alt="">
+                    <div class="content">
+                        <h3>Café au Lait</h3>
+                        <p>Café au lait is perfect for the coffee minimalist who wants a bit more flavor. Just add a splash of warm milk to your coffee and you’re all set!</p>
+                        <span>$8.99</span>
+                    </div>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="image/menu-6.png" alt="">
+                    <div class="content">
+                        <h3>Galãoour special coffee</h3>
+                        <p>Originating in Portugal, this hot coffee drink is closely related to the latte and cappuccino. Only difference is it contains about twice as much foamed milk, making it a lighter drink compared to the other two.</p>
+                        <span>$8.99</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- REVIEW -->
+        <section class="review" id="review">
+            <h1 class="heading">reviews <span>what people says</span></h1>
+
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i>
+                        <img src="image/pic-1.png" alt="">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p> Before starting the day I just come here and have a coffee to make my mind fresh cause starting a day with fresh mind will make your day go well</p>
+                        <h3>john deo</h3>
+                        <span>satisfied client</span>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i>
+                        <img src="image/pic-2.png" alt="">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p> Amazing coffee shop I have ever visited especially their Mocha, it feels like they put their passion of love for making a coffee</p>
+                        <h3>john deo</h3>
+                        <span>satisfied client</span>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i>
+                        <img src="image/pic-3.png" alt="">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>Their coffee is well made and a true sense of passion in making coffee can be seen by drinking it</p>
+                        <h3>john deo</h3>
+                        <span>satisfied client</span>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i>
+                        <img src="image/pic-4.png" alt="">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>If you are having a bad day or having a bad mood, just come to this shop and have a coffee, their coffee will make you feel better</p>
+                        <h3>john deo</h3>
+                        <span>satisfied client</span>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- BOOK -->
+        <section class="book" id="book">
+            <h1 class="heading">booking <span>reserve a table</span></h1>
+
+            <form action="coffee.php" method="get" >
+                <input type="text" placeholder="Name" class="box" name="username">
+                <input type="email" placeholder="Email" class="box" name="useremail">
+                <input type="number" placeholder="Number" class="box" name="userno">
+                <textarea placeholder="Message" class="box" name="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+        </section>
+
+        <!-- FOOTER -->
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>our branches</h3>
+                    <a href="#"><i class="fas fa-arrow-right"></i> india</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i> USA</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i> france</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i> africa</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i> japan</a>
+                </div>
+
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#home"><i class="fas fa-arrow-right"></i> home</a>
+                    <a href="#about"><i class="fas fa-arrow-right"></i> about</a>
+                    <a href="#menu"><i class="fas fa-arrow-right"></i> menu</a>
+                    <a href="#review"><i class="fas fa-arrow-right"></i> review</a>
+                    <a href="#book"><i class="fas fa-arrow-right"></i> book</a>
+                </div>
+
+                <div class="box">
+                    <h3>contact info</h3>
+                    <a href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
+                    <a href="#"><i class="fas fa-phone"></i> +111-222-3333</a>
+                    <a href="#"><i class="fas fa-envelope"></i> coffee@gmail.com</a>
+                    <a href="#"><i class="fas fa-envelope"></i> Perú, Lima</a>
+                </div>
+
+                <div class="box">
+                    <h3>contact info</h3>
+                    <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
+                    <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                    <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+                    <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+                    <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                </div>
+            </div>
+
+            <div class="credit">created by <span>mr. web designer</span> | all rights reserved</div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- SWIPER -->
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+        <!-- Custom JS File Link  -->
+        <script src="js/coffee3.js"></script>
+
+    </body>
+
+    </html>
